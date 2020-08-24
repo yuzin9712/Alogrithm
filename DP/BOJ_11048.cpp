@@ -1,3 +1,9 @@
+/*
+왜 bfs 가 아니라 dp 일까?
+bfs 는 가중치가 모두 1 인 경우 최소 이동거리 를 구할 때 사용
+하지만 이 문제에서는 이동거리는 상관 없고 얻어지는 사탕의 수가 최대 값이 되어야함
+따라서 bfs로 푸는 것이 아니다. 
+*/
 #include <iostream>
 #define MAX(a, b) a > b ? a : b
 using namespace std;
