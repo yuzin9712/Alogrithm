@@ -36,13 +36,11 @@ void dijkstra(int v) {
     pq.push(make_pair(0, v));
 
     while(!pq.empty()) {
+        /*first 부터 비교하니까 시간 복잡도를 줄이기 위해*/
         int current_vertex = pq.top().second;
         int current_distance = -pq.top().first;
 
         pq.pop();
-
-        /*???????*/
-        // if(d[current_vertex] < current_distance)    continue;
 
         for(int i = 0; i < graph[current_vertex].size(); i++) {
             int next_vertex = graph[current_vertex][i].first;
