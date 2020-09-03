@@ -76,7 +76,7 @@ long long solution(string expression) {
             answer = num;
     }
 
-    cout << answer;
+    // cout << answer;
     
 
     return answer;
