@@ -1,3 +1,4 @@
+/*누적합*/
 #include <cstdio>
 using namespace std;
 
